@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Master 协作器"
+  short_description: "用 ppt-master 把 PDF、URL 或 Markdown 变成可编辑 PPTX"
+  default_prompt: "使用 $ppt-master-skill，基于我的 PDF、URL 或 Markdown 材料创建一个可编辑的 PowerPoint 项目，并在需要时完成项目初始化、材料导入、后处理和导出。"

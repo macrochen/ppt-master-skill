@@ -31,23 +31,23 @@ gemini skills install ./ppt-master-skill
 首次使用先执行：
 
 ```bash
-.gemini/skills/ppt-master-skill/scripts/bootstrap.sh
+~/.agents/skills/ppt-master-skill/scripts/bootstrap.sh
 ```
 
 之后优先通过包装脚本运行上游工具：
 
 ```bash
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py init demo --format ppt169
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py import-sources projects/demo_ppt169_20260320 ./source.pdf
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh finalize_svg.py projects/demo_ppt169_20260320
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh svg_to_pptx.py projects/demo_ppt169_20260320 -s final
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py init demo --format ppt169
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py import-sources projects/demo_ppt169_20260320 ./source.pdf
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh finalize_svg.py projects/demo_ppt169_20260320
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh svg_to_pptx.py projects/demo_ppt169_20260320 -s final
 ```
 
 网页转 Markdown 时：
 
 ```bash
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh web_to_md.py https://example.com/article
-.gemini/skills/ppt-master-skill/scripts/run-node-tool.sh web_to_md.cjs https://mp.weixin.qq.com/s/xxxx
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh web_to_md.py https://example.com/article
+~/.agents/skills/ppt-master-skill/scripts/run-node-tool.sh web_to_md.cjs https://mp.weixin.qq.com/s/xxxx
 ```
 
 Python 相关约束：
@@ -60,7 +60,7 @@ Python 相关约束：
 
 - 默认优先复用上游 `vendor/ppt-master` 里的工具，不重写同类流程。
 - 第一次使用、缺少 `vendor/ppt-master`、或依赖失效时，先运行 `bootstrap.sh`。
-- 任何 Python 工具调用都必须通过 `.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh` 或该 Skill 自己的 `.venv/bin/python` 执行，不得直接调用系统 Python。
+- 任何 Python 工具调用都必须通过 `~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh` 或该 Skill 自己的 `.venv/bin/python` 执行，不得直接调用系统 Python。
 - 需要 PDF 输入时，优先运行 `pdf_to_md.py`；结果明显错乱、扫描件或 OCR 失败时再说明需要人工兜底。
 - 需要 URL 输入时，普通网页优先 `web_to_md.py`；微信公众号或出现 403 时改用 `web_to_md.cjs`。
 - 正式生成前，先用 `project_manager.py init` 创建项目，再用 `import-sources` 把源材料归档到项目目录。
@@ -82,13 +82,13 @@ Python 相关约束：
 ## Useful Commands
 
 ```bash
-.gemini/skills/ppt-master-skill/scripts/bootstrap.sh
-.gemini/skills/ppt-master-skill/scripts/bootstrap.sh --update
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py validate projects/<project>
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh pdf_to_md.py ./report.pdf
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh total_md_split.py projects/<project>
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh finalize_svg.py projects/<project>
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh svg_to_pptx.py projects/<project> -s final
+~/.agents/skills/ppt-master-skill/scripts/bootstrap.sh
+~/.agents/skills/ppt-master-skill/scripts/bootstrap.sh --update
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py validate projects/<project>
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh pdf_to_md.py ./report.pdf
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh total_md_split.py projects/<project>
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh finalize_svg.py projects/<project>
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh svg_to_pptx.py projects/<project> -s final
 ```
 
 ## Read More Only When Needed

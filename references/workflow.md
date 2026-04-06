@@ -13,12 +13,12 @@
 1. 准备运行环境
 
 ```bash
-.gemini/skills/ppt-master-skill/scripts/bootstrap.sh
+~/.agents/skills/ppt-master-skill/scripts/bootstrap.sh
 ```
 
 Python 规则：
 
-- 本 Skill 下的 Python 执行统一使用 `.gemini/skills/ppt-master-skill/.venv`
+- 本 Skill 下的 Python 执行统一使用 `~/.agents/skills/ppt-master-skill/.venv`
 - 不使用系统 Python，也不把依赖安装到全局环境
 - 最稳妥的调用方式是始终走 `scripts/run-python-tool.sh`
 
@@ -26,20 +26,20 @@ Python 规则：
 
 ```bash
 # PDF -> Markdown
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh pdf_to_md.py ./report.pdf
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh pdf_to_md.py ./report.pdf
 
 # 普通网页 -> Markdown
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh web_to_md.py https://example.com/article
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh web_to_md.py https://example.com/article
 
 # 微信公众号 / 高防网页 -> Markdown
-.gemini/skills/ppt-master-skill/scripts/run-node-tool.sh web_to_md.cjs https://mp.weixin.qq.com/s/xxxx
+~/.agents/skills/ppt-master-skill/scripts/run-node-tool.sh web_to_md.cjs https://mp.weixin.qq.com/s/xxxx
 ```
 
 3. 初始化项目并导入材料
 
 ```bash
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py init market_review --format ppt169
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py import-sources projects/market_review_ppt169_20260320 ./report.pdf ./notes.md
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py init market_review --format ppt169
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh project_manager.py import-sources projects/market_review_ppt169_20260320 ./report.pdf ./notes.md
 ```
 
 4. 在项目目录中完成内容生产
@@ -51,9 +51,9 @@ Python 规则：
 5. 后处理与导出
 
 ```bash
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh total_md_split.py projects/market_review_ppt169_20260320
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh finalize_svg.py projects/market_review_ppt169_20260320
-.gemini/skills/ppt-master-skill/scripts/run-python-tool.sh svg_to_pptx.py projects/market_review_ppt169_20260320 -s final
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh total_md_split.py projects/market_review_ppt169_20260320
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh finalize_svg.py projects/market_review_ppt169_20260320
+~/.agents/skills/ppt-master-skill/scripts/run-python-tool.sh svg_to_pptx.py projects/market_review_ppt169_20260320 -s final
 ```
 
 ## 工具选择建议

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#FAF8F5"/>
+  
+  <!-- 左侧大图占位符 -->
+  <rect x="0" y="0" width="520" height="720" fill="#C9A962" opacity="0.08"/>
+  <rect x="60" y="120" width="400" height="480" fill="none" stroke="#C9A962" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="260" y="340" font-family="Noto Sans SC, sans-serif" font-size="16" 
+        fill="#9B9B9B" text-anchor="middle">[法国普罗旺斯 有机鸢尾花]</text>
+  <text x="260" y="365" font-family="Noto Sans SC, sans-serif" font-size="12" 
+        fill="#9B9B9B" text-anchor="middle">建议替换为植物摄影图</text>
+  
+  <!-- 右侧内容区域 -->
+  <text x="580" y="80" font-family="Noto Serif SC, serif" font-size="12" 
+        fill="#C9A962" letter-spacing="2">CHAPTER 03 · 产品 04</text>
+  
+  <text x="580" y="130" font-family="Noto Sans SC, sans-serif" font-size="28" 
+        fill="#2D4A3E" font-weight="300">鸢尾花焕亮美白身体乳</text>
+  
+  <!-- 核心成分标签 -->
+  <g transform="translate(580, 170)">
+    <rect x="0" y="0" width="280" height="36" fill="#2D4A3E" opacity="0.1"/>
+    <text x="140" y="24" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#2D4A3E" text-anchor="middle">法国普罗旺斯 有机鸢尾花</text>
+  </g>
+  
+  <!-- 功效 -->
+  <g transform="translate(580, 240)">
+    <text x="0" y="0" font-family="Noto Serif SC, serif" font-size="14" 
+          fill="#C9A962">核心功效</text>
+    <text x="0" y="38" font-family="Noto Sans SC, sans-serif" font-size="18" 
+          fill="#2C2C2C" letter-spacing="2">美白淡斑 · 改善色沉 · 水润保湿</text>
+  </g>
+  
+  <!-- 卖点 -->
+  <g transform="translate(580, 330)">
+    <text x="0" y="0" font-family="Noto Serif SC, serif" font-size="14" 
+          fill="#C9A962">核心优势</text>
+    <text x="0" y="32" font-family="Noto Sans SC, sans-serif" font-size="17" 
+          fill="#2C2C2C">「白+润」双重焕亮</text>
+    <text x="0" y="58" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#6B6B6B">温和美白不拔干，改善色差，敏肌友好</text>
+  </g>
+  
+  <!-- 适配人群 -->
+  <g transform="translate(580, 450)">
+    <text x="0" y="0" font-family="Noto Serif SC, serif" font-size="12" 
+          fill="#9B9B9B">适配人群</text>
+    <text x="0" y="26" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#6B6B6B">美白需求 · 肤色不均 · 敏肌 · 干皮</text>
+  </g>
+  
+  <text x="1220" y="680" font-family="Noto Sans SC, sans-serif" font-size="12" 
+        fill="#9B9B9B" text-anchor="end">09</text>
+</svg>

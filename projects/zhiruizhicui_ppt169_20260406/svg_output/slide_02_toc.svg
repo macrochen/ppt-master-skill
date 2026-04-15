@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#FAF8F5"/>
+  
+  <!-- 标题 -->
+  <text x="120" y="140" font-family="Noto Serif SC, serif" font-size="36" 
+        fill="#2D4A3E" font-weight="300">目录</text>
+  <text x="120" y="165" font-family="Noto Sans SC, sans-serif" font-size="14" 
+        fill="#C9A962" letter-spacing="3">CONTENTS</text>
+  
+  <!-- 章节列表 -->
+  <g transform="translate(120, 240)">
+    <!-- 章节1 -->
+    <text x="0" y="0" font-family="Noto Serif SC, serif" font-size="14" 
+          fill="#C9A962" letter-spacing="2">01</text>
+    <text x="60" y="0" font-family="Noto Sans SC, sans-serif" font-size="22" 
+          fill="#2C2C2C" font-weight="300">品牌核心理念与核心优势</text>
+    <text x="60" y="28" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#6B6B6B">全球植萃故事</text>
+    
+    <!-- 章节2 -->
+    <text x="0" y="100" font-family="Noto Serif SC, serif" font-size="14" 
+          fill="#C9A962" letter-spacing="2">02</text>
+    <text x="60" y="100" font-family="Noto Sans SC, sans-serif" font-size="22" 
+          fill="#2C2C2C" font-weight="300">产品矩阵整体规划</text>
+    <text x="60" y="128" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#6B6B6B">全链路护理逻辑</text>
+    
+    <!-- 章节3 -->
+    <text x="0" y="200" font-family="Noto Serif SC, serif" font-size="14" 
+          fill="#C9A962" letter-spacing="2">03</text>
+    <text x="60" y="200" font-family="Noto Sans SC, sans-serif" font-size="22" 
+          fill="#2C2C2C" font-weight="300">五款产品详细解析</text>
+    <text x="60" y="228" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#6B6B6B">痛点 + 解决方案 + 核心卖点</text>
+  </g>
+  
+  <!-- 装饰线 -->
+  <line x1="120" y1="580" x2="300" y2="580" stroke="#C9A962" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- 页码 -->
+  <text x="1220" y="680" font-family="Noto Sans SC, sans-serif" font-size="12" 
+        fill="#9B9B9B" text-anchor="end">02</text>
+</svg>

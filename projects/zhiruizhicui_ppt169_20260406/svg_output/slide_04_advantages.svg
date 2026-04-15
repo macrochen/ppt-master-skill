@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#FAF8F5"/>
+  
+  <!-- 标题 -->
+  <text x="120" y="100" font-family="Noto Serif SC, serif" font-size="36" 
+        fill="#2D4A3E" font-weight="300">核心优势</text>
+  <text x="120" y="125" font-family="Noto Sans SC, sans-serif" font-size="14" 
+        fill="#C9A962" letter-spacing="3">CORE ADVANTAGES</text>
+  
+  <!-- 五大优势 -->
+  <g transform="translate(120, 180)">
+    <!-- 优势1 -->
+    <text x="0" y="0" font-family="Noto Serif SC, serif" font-size="16" 
+          fill="#C9A962">原料来源</text>
+    <text x="0" y="30" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#6B6B6B">全球黄金产区直采，四大洲有机认证</text>
+    
+    <!-- 优势2 -->
+    <text x="380" y="0" font-family="Noto Serif SC, serif" font-size="16" 
+          fill="#C9A962">植萃技术</text>
+    <text x="380" y="30" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#6B6B6B">超临界CO₂低温萃取，100%保留活性</text>
+    
+    <!-- 优势3 -->
+    <text x="760" y="0" font-family="Noto Serif SC, serif" font-size="16" 
+          fill="#C9A962">品牌调性</text>
+    <text x="760" y="30" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#6B6B6B">全球植萃、天然奢护、身心疗愈</text>
+    
+    <!-- 优势4 -->
+    <text x="0" y="100" font-family="Noto Serif SC, serif" font-size="16" 
+          fill="#C9A962">产品适配</text>
+    <text x="0" y="130" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#6B6B6B">覆盖20-45岁女性全维度肌肤问题</text>
+    
+    <!-- 优势5 -->
+    <text x="380" y="100" font-family="Noto Serif SC, serif" font-size="16" 
+          fill="#C9A962">安全标准</text>
+    <text x="380" y="130" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#6B6B6B">98%+天然来源，0添加，孕妇敏肌友好</text>
+  </g>
+  
+  <!-- 0添加清单 -->
+  <g transform="translate(120, 400)">
+    <text x="0" y="0" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#2D4A3E" font-weight="500">安全承诺</text>
+    <text x="0" y="35" font-family="Noto Sans SC, sans-serif" font-size="24" 
+          fill="#C9A962" letter-spacing="8">0酒精 · 0香精 · 0色素 · 0矿物油</text>
+  </g>
+  
+  <!-- 页码 -->
+  <text x="1220" y="680" font-family="Noto Sans SC, sans-serif" font-size="12" 
+        fill="#9B9B9B" text-anchor="end">04</text>
+</svg>

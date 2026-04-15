@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#FAF8F5"/>
+  
+  <!-- 章节标题 -->
+  <text x="120" y="100" font-family="Noto Serif SC, serif" font-size="14" 
+        fill="#C9A962" letter-spacing="3">CHAPTER 01</text>
+  
+  <!-- 主标题 -->
+  <text x="640.0" y="200" font-family="Noto Serif SC, serif" font-size="48" 
+        fill="#2D4A3E" text-anchor="middle" font-weight="300" letter-spacing="6">
+    植愈身心，原生奢养
+  </text>
+  
+  <!-- 副标题 -->
+  <text x="640.0" y="250" font-family="Noto Sans SC, sans-serif" font-size="16" 
+        fill="#6B6B6B" text-anchor="middle" letter-spacing="2">
+    品牌核心理念
+  </text>
+  
+  <!-- 分隔线 -->
+  <line x1="540.0" y1="290" x2="740.0" y2="290" stroke="#C9A962" stroke-width="0.5"/>
+  
+  <!-- 内容区域 -->
+  <g transform="translate(150, 340)">
+    <text x="0" y="0" font-family="Noto Sans SC, sans-serif" font-size="16" 
+          fill="#2C2C2C" line-height="1.8">
+      我们的初心，是跨越山海，探寻全球每一寸黄金植萃产地
+    </text>
+    <text x="0" y="40" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#6B6B6B">
+      只为将自然本真的修护力量，注入每一瓶身体护理产品中
+    </text>
+  </g>
+  
+  <!-- 四大洲标签 -->
+  <g transform="translate(150, 460)">
+    <rect x="0" y="0" width="140" height="80" fill="none" stroke="#C9A962" stroke-width="0.5" opacity="0.5"/>
+    <text x="70" y="35" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#2D4A3E" text-anchor="middle">法国普罗旺斯</text>
+    <text x="70" y="55" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#6B6B6B" text-anchor="middle">鸢尾花</text>
+    
+    <rect x="180" y="0" width="140" height="80" fill="none" stroke="#C9A962" stroke-width="0.5" opacity="0.5"/>
+    <text x="250" y="35" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#2D4A3E" text-anchor="middle">澳洲南澳</text>
+    <text x="250" y="55" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#6B6B6B" text-anchor="middle">药蜀葵根</text>
+    
+    <rect x="360" y="0" width="140" height="80" fill="none" stroke="#C9A962" stroke-width="0.5" opacity="0.5"/>
+    <text x="430" y="35" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#2D4A3E" text-anchor="middle">中国长白山</text>
+    <text x="430" y="55" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#6B6B6B" text-anchor="middle">赤芝 · 人参</text>
+    
+    <rect x="540" y="0" width="140" height="80" fill="none" stroke="#C9A962" stroke-width="0.5" opacity="0.5"/>
+    <text x="610" y="35" font-family="Noto Sans SC, sans-serif" font-size="14" 
+          fill="#2D4A3E" text-anchor="middle">比利时</text>
+    <text x="610" y="55" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#6B6B6B" text-anchor="middle">顶级兰花</text>
+  </g>
+  
+  <!-- 页码 -->
+  <text x="1220" y="680" font-family="Noto Sans SC, sans-serif" font-size="12" 
+        fill="#9B9B9B" text-anchor="end">03</text>
+</svg>

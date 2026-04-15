@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8F6F0"/>
+      <stop offset="100%" style="stop-color:#FAF8F5"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="1000" cy="360" r="180"/>
+    </clipPath>
+  </defs>
+  
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  
+  <!-- 图片占位符 - 右侧圆形植物图 -->
+  <circle cx="1000" cy="360" r="180" fill="#2D4A3E" opacity="0.1"/>
+  <circle cx="1000" cy="360" r="170" fill="none" stroke="#C9A962" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="1000" y="350" font-family="Noto Sans SC, sans-serif" font-size="14" 
+        fill="#9B9B9B" text-anchor="middle">[植物意境图]</text>
+  <text x="1000" y="370" font-family="Noto Sans SC, sans-serif" font-size="10" 
+        fill="#9B9B9B" text-anchor="middle">建议：山水/植物/光影</text>
+  
+  <!-- 左侧文字区域 -->
+  <line x1="100" y1="300" x2="280" y2="300" stroke="#C9A962" stroke-width="1" opacity="0.6"/>
+  
+  <text x="100" y="280" font-family="Noto Serif SC, serif" font-size="52" 
+        fill="#2D4A3E" font-weight="300" letter-spacing="6">
+    植愈身心
+  </text>
+  <text x="100" y="350" font-family="Noto Serif SC, serif" font-size="52" 
+        fill="#2D4A3E" font-weight="300" letter-spacing="6">
+    原生奢养
+  </text>
+  
+  <text x="100" y="420" font-family="Noto Sans SC, sans-serif" font-size="16" 
+        fill="#6B6B6B" letter-spacing="2">
+    纯天然植萃身体护理系列企划汇报
+  </text>
+  
+  <text x="100" y="520" font-family="Noto Serif SC, serif" font-size="14" 
+        fill="#9B9B9B" letter-spacing="4" font-style="italic">
+    跨越山海的全球植萃寻香之旅
+  </text>
+  
+  <text x="1220" y="680" font-family="Noto Sans SC, sans-serif" font-size="12" 
+        fill="#9B9B9B" text-anchor="end">01</text>
+</svg>

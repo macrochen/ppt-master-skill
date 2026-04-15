@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#FAF8F5"/>
+  
+  <!-- 章节标题 -->
+  <text x="120" y="80" font-family="Noto Serif SC, serif" font-size="14" 
+        fill="#C9A962" letter-spacing="3">CHAPTER 02</text>
+  <text x="120" y="110" font-family="Noto Sans SC, sans-serif" font-size="32" 
+        fill="#2D4A3E" font-weight="300">产品矩阵</text>
+  
+  <!-- 表格 -->
+  <g transform="translate(80, 150)">
+    <!-- 表头 -->
+    <rect x="0" y="0" width="140" height="50" fill="#2D4A3E" opacity="0.1"/>
+    <rect x="140" y="0" width="260" height="50" fill="#2D4A3E" opacity="0.1"/>
+    <rect x="400" y="0" width="240" height="50" fill="#2D4A3E" opacity="0.1"/>
+    <rect x="640" y="0" width="180" height="50" fill="#2D4A3E" opacity="0.1"/>
+    <rect x="820" y="0" width="200" height="50" fill="#2D4A3E" opacity="0.1"/>
+    
+    <text x="70" y="32" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#2D4A3E" text-anchor="middle" font-weight="500">核心痛点</text>
+    <text x="270" y="32" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#2D4A3E" text-anchor="middle" font-weight="500">对应产品</text>
+    <text x="520" y="32" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#2D4A3E" text-anchor="middle" font-weight="500">核心植萃成分</text>
+    <text x="730" y="32" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#2D4A3E" text-anchor="middle" font-weight="500">核心功效</text>
+    <text x="920" y="32" font-family="Noto Sans SC, sans-serif" font-size="13" 
+          fill="#2D4A3E" text-anchor="middle" font-weight="500">适配人群</text>
+    
+    <!-- 行1 -->
+    <rect x="0" y="50" width="140" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="140" y="50" width="260" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="400" y="50" width="240" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="640" y="50" width="180" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="820" y="50" width="200" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    
+    <text x="70" y="80" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">痘痘、毛周角化</text>
+    <text x="270" y="80" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">灵芝清透祛痘身体喷雾</text>
+    <text x="520" y="80" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">长白山有机赤芝</text>
+    <text x="730" y="80" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">祛痘淡印、改善鸡皮</text>
+    <text x="920" y="80" font-family="Noto Sans SC, sans-serif" font-size="11" 
+          fill="#6B6B6B" text-anchor="middle">油痘肌、敏肌友好</text>
+    
+    <!-- 行2 -->
+    <rect x="0" y="120" width="140" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="140" y="120" width="260" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="400" y="120" width="240" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="640" y="120" width="180" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="820" y="120" width="200" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    
+    <text x="70" y="150" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">干、痒、皮屑</text>
+    <text x="270" y="150" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">药蜀葵根深层保湿身体乳</text>
+    <text x="520" y="150" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">南澳有机药蜀葵根</text>
+    <text x="730" y="150" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">深层补水、长效锁水</text>
+    <text x="920" y="150" font-family="Noto Sans SC, sans-serif" font-size="11" 
+          fill="#6B6B6B" text-anchor="middle">干皮、敏肌、40+熟龄肌</text>
+    
+    <!-- 行3 -->
+    <rect x="0" y="190" width="140" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="140" y="190" width="260" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="400" y="190" width="240" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="640" y="190" width="180" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="820" y="190" width="200" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    
+    <text x="70" y="220" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">松弛、颈纹</text>
+    <text x="270" y="220" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">人参焕活紧致身体精华油</text>
+    <text x="520" y="220" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">长白山有机人参</text>
+    <text x="730" y="220" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">紧致抗老、淡化颈纹</text>
+    <text x="920" y="220" font-family="Noto Sans SC, sans-serif" font-size="11" 
+          fill="#6B6B6B" text-anchor="middle">35+熟龄肌用户</text>
+    
+    <!-- 行4 -->
+    <rect x="0" y="260" width="140" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="140" y="260" width="260" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="400" y="260" width="240" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="640" y="260" width="180" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="820" y="260" width="200" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    
+    <text x="70" y="290" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">黑、黄、暗沉</text>
+    <text x="270" y="290" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">鸢尾花焕亮美白身体乳</text>
+    <text x="520" y="290" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">法国普罗旺斯鸢尾花</text>
+    <text x="730" y="290" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">美白淡斑、改善色沉</text>
+    <text x="920" y="290" font-family="Noto Sans SC, sans-serif" font-size="11" 
+          fill="#6B6B6B" text-anchor="middle">美白需求、敏肌、干皮</text>
+    
+    <!-- 行5 -->
+    <rect x="0" y="330" width="140" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="140" y="330" width="260" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="400" y="330" width="240" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="640" y="330" width="180" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    <rect x="820" y="330" width="200" height="70" fill="none" stroke="#C9A962" stroke-width="0.3" opacity="0.3"/>
+    
+    <text x="70" y="360" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">妊娠纹、肥胖纹</text>
+    <text x="270" y="360" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">兰花修护淡纹身体油</text>
+    <text x="520" y="360" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">比利时顶级兰花</text>
+    <text x="730" y="360" font-family="Noto Sans SC, sans-serif" font-size="12" 
+          fill="#2C2C2C" text-anchor="middle">修护淡纹、预防纹路</text>
+    <text x="920" y="360" font-family="Noto Sans SC, sans-serif" font-size="11" 
+          fill="#6B6B6B" text-anchor="middle">孕期/产后女性、敏肌友好</text>
+  </g>
+  
+  <!-- 页码 -->
+  <text x="1220" y="680" font-family="Noto Sans SC, sans-serif" font-size="12" 
+        fill="#9B9B9B" text-anchor="end">05</text>
+</svg>

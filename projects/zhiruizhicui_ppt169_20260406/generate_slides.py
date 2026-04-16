@@ -5,8 +5,9 @@
 """
 
 import os
+from pathlib import Path
 
-PROJECT_DIR = "/Users/shi/.agents/skills/ppt-master-skill/projects/zhiruizhicui_ppt169_20260406/svg_output"
+PROJECT_DIR = str(Path(__file__).resolve().parent / "svg_output")
 
 # 画布尺寸：16:9 (1280x720)
 WIDTH = 1280
